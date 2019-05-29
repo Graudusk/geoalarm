@@ -1,0 +1,78 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: $font-body;
+    color: $text-color;
+    background-color: $green;
+    margin: 0;
+    text-shadow: darken($green, 10%)  1px 1px 1px;
+    overflow-x: hidden;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+    // color: $link-color;
+    text-decoration: none;
+}
+
+main {
+    padding: 0.6rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1,
+h2,
+h4 {
+    font-family: $header-font;
+}
+
+h2 {
+    margin-bottom: 0.6rem;
+}
+
+h4 {
+    margin-bottom: 0.2rem;
+    margin-top: 1.8rem;
+    line-height: 1.4;
+
+    &:first-of-type {
+        margin-top: 0.6rem;
+    }
+}
+
+p {
+    margin-top: 0.2rem;
+    line-height: 1.4;
+    font-size: 1rem;
+
+    &.pre {
+        white-space: pre-wrap;
+        word-wrap: normal;
+        word-break: keep-all;
+    }
+}
+
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+
+.container {
+    padding: 1rem;
+    margin-bottom: 4.2rem;
+    overflow-x: hidden;
+    p {
+        line-height: 1.4;
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}

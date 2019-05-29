@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez|Titillium+Web|Roboto');
+$text-color: #eee;
+$link-color: #176917;
+$border-color: #338933;
+$fa-font-path: "fontawesome/webfonts";
+$header-font: 'Titillium Web', sans-serif;
+$body-font-size: 100%;
+$line-height: 1.5;
+$font-body: 'Roboto', serif;
+$white: #eee;
+$blue: #339ec2;
+$red: #9c2828;
+$green: #59a859;
+$fa-font-path: "fontawesome/webfonts";
+@import "fontawesome/scss/fontawesome";
+@import "fontawesome/scss/fa-solid.scss";
+@import "fontawesome/scss/fa-regular.scss";
+
+@mixin opacitate($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
